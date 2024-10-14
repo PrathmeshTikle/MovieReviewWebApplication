@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(32, 30, 30);
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#f65037,#8ddeee);
+    color: #fff;
+    /* #00feba */
+    margin: 100px auto 0;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    padding: 10px 20px;
+    color: #555;
+    height: 60px;
+    flex : 1;
+    border-radius: 15px;
+    margin-right:16px ;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.outcome{
+    display:none;
+}
+/* p{
+    height: 20px;
+    width: 300px;
+    background:brown;
+    color: #fff;
+    padding: 10px 10px;
+} */
+
+.movie-poster{
+    
+    border-radius: 20px;
+}
